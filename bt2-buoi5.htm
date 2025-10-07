@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h2 style="text-align:center;">Đăng ký thành viên</h2>
+  <form>
+    <fieldset>
+      <legend>Thông tin cơ bản</legend>
+      <label for="hoten">Họ tên:</label>
+      <input type="text" id="hoten" name="hoten"><br><br>
+      <label for="ngaysinh">Ngày sinh:</label>
+      <input type="date" id="ngaysinh" name="ngaysinh"><br><br>
+      <label for="quoctich">Quốc tịch:</label>
+      <select id="quoctich" name="quoctich">
+        <option value="VietNam">Việt Nam</option>
+        <option value="My">Mỹ</option>
+        <option value="NhatBan">Nhật Bản</option>
+        <option value="HanQuoc">Hàn Quốc</option>
+        <option value="Khac">Khác</option>
+      </select>
+    </fieldset>
+
+    <fieldset>
+      <legend>Bạn muốn nhận thông tin qua</legend>
+      <input type="checkbox" id="email" name="thongtin" value="Email">
+      <label for="email">Email</label><br>
+
+      <input type="checkbox" id="sms" name="thongtin" value="SMS">
+      <label for="sms">Tin nhắn SMS</label><br>
+
+      <input type="checkbox" id="bru" name="thongtin" value="Bưu điện">
+      <label for="bru">Bưu điện</label>
+    </fieldset>
+
+    <br>
+    <button type="submit">Đăng ký</button>
+  </form>
+</body>
+</html>
